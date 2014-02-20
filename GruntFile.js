@@ -72,7 +72,7 @@ module.exports = function (grunt) {
                 files: {
                     'dist/js/library.js': ['public/bower_components/jquery/dist/jquery.js',
                                        'public/bower_components/bootstrap/dist/js/bootstrap.js'],
-                    'dist/js/app.js': ['public/js/app.js']
+                    'dist/js/main.js': ['public/js/main.js']
                 }
             },
             production: {
@@ -82,7 +82,7 @@ module.exports = function (grunt) {
                 files: {
                     'dist/js/library.js': ['public/bower_components/jquery/dist/jquery.js',
                                        'public/bower_components/bootstrap/dist/js/bootstrap.js'],
-                    'dist/js/app.js': ['public/js/app.js']
+                    'dist/js/main.js': ['public/js/main.js']
                 }
             }
         },
