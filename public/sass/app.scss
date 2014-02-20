@@ -1,0 +1,89 @@
+@import "colors.scss";
+@import "compass/css3";
+@import "compass/css3/transform-legacy";
+ html {
+    background-color: $black;
+}
+body {
+    background-color: transparent;
+    padding-top: 50px;
+}
+h1 {
+    color: $neonGreen;
+    font-family: $ocr;
+    text-align: center;
+    font-size: 48pt;
+}
+h2 {
+    color: $lightGreen;
+    font-family: $ocr;
+    text-align: center;
+    font-size: 24pt;
+}
+p {
+    color: $midGreen;
+    font-family: monospace;
+    font-size: 18pt;
+}
+.themtoo {
+    border-bottom: 1px dotted;
+}
+.inputBoxOuter {
+    text-align: center;
+}
+.inputBoxOuter input,
+#joinButton {
+    border: 5px solid $lightGreen;
+    background-color: transparent;
+    color: $neonGreen;
+    padding: 15px;
+    margin: 0 0 10px 0;
+    width: 100%;
+    max-width: 325px;
+    font-size: 24px;
+}
+#joinButton {
+    width: auto;
+}
+#joinButton:hover {
+    background-color: $lightGreen;
+    border: 5px solid $neonGreen;
+    color: $black;
+}
+footer p {
+    margin-top: 20px;
+    color: $lightGreen;
+    font-size: 8pt;
+    text-align: center;
+}
+footer a {
+    color: $lightGreen;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+footer a:hover {
+    color: $lightGreen;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+.fa {
+    color: $neonGreen;
+    font-size: 4em;
+    @include transition-property(transform, color);
+    @include transition-duration(1s);
+}
+.fa:hover {
+    @include rotate(15deg);
+    color: $lightGreen;
+}
+#socialBar {
+    text-align: center;
+}
+#socialBar a:hover {
+    text-decoration: none;
+}
+#thanksBar
+{
+    text-align: center;
+    color: $lightGreen;
+}

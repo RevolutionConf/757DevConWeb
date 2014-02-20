@@ -1,0 +1,129 @@
+/* line 4, ../../public/sass/app.scss */
+html {
+  background-color: #111900;
+}
+
+/* line 7, ../../public/sass/app.scss */
+body {
+  background-color: transparent;
+  padding-top: 50px;
+}
+
+/* line 11, ../../public/sass/app.scss */
+h1 {
+  color: #8cff00;
+  font-family: "ocr-a-std", sans-serif;
+  text-align: center;
+  font-size: 48pt;
+}
+
+/* line 17, ../../public/sass/app.scss */
+h2 {
+  color: #a3bfa3;
+  font-family: "ocr-a-std", sans-serif;
+  text-align: center;
+  font-size: 24pt;
+}
+
+/* line 23, ../../public/sass/app.scss */
+p {
+  color: #468000;
+  font-family: monospace;
+  font-size: 18pt;
+}
+
+/* line 28, ../../public/sass/app.scss */
+.themtoo {
+  border-bottom: 1px dotted;
+}
+
+/* line 31, ../../public/sass/app.scss */
+.inputBoxOuter {
+  text-align: center;
+}
+
+/* line 35, ../../public/sass/app.scss */
+.inputBoxOuter input,
+#joinButton {
+  border: 5px solid #a3bfa3;
+  background-color: transparent;
+  color: #8cff00;
+  padding: 15px;
+  margin: 0 0 10px 0;
+  width: 100%;
+  max-width: 325px;
+  font-size: 24px;
+}
+
+/* line 45, ../../public/sass/app.scss */
+#joinButton {
+  width: auto;
+}
+
+/* line 48, ../../public/sass/app.scss */
+#joinButton:hover {
+  background-color: #a3bfa3;
+  border: 5px solid #8cff00;
+  color: #111900;
+}
+
+/* line 53, ../../public/sass/app.scss */
+footer p {
+  margin-top: 20px;
+  color: #a3bfa3;
+  font-size: 8pt;
+  text-align: center;
+}
+
+/* line 59, ../../public/sass/app.scss */
+footer a {
+  color: #a3bfa3;
+  text-decoration: none;
+  border-bottom: 1px dotted;
+}
+
+/* line 64, ../../public/sass/app.scss */
+footer a:hover {
+  color: #a3bfa3;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+/* line 69, ../../public/sass/app.scss */
+.fa {
+  color: #8cff00;
+  font-size: 4em;
+  -webkit-transition-property: -webkit-transform, color;
+  -moz-transition-property: -moz-transform, color;
+  -o-transition-property: -o-transform, color;
+  transition-property: transform, color;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+/* line 75, ../../public/sass/app.scss */
+.fa:hover {
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  transform: rotate(15deg);
+  color: #a3bfa3;
+}
+
+/* line 79, ../../public/sass/app.scss */
+#socialBar {
+  text-align: center;
+}
+
+/* line 82, ../../public/sass/app.scss */
+#socialBar a:hover {
+  text-decoration: none;
+}
+
+/* line 86, ../../public/sass/app.scss */
+#thanksBar {
+  text-align: center;
+  color: #a3bfa3;
+}
