@@ -114,4 +114,5 @@ module.exports = function (grunt) {
     /* register commands */
     grunt.registerTask('default', ['htmlmin:dev', 'compass', 'concat', 'concurrent:dev']);
     grunt.registerTask('prod', ['htmlmin:production', 'compass', 'concat', 'concurrent:production']);
+    grunt.registerTask('deploy', ['htmlmin:production', 'compass', 'concat', 'uglify:production']);
 };
