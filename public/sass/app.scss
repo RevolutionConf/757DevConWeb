@@ -25,26 +25,21 @@ h2 {
     text-align: center;
     font-size: 24pt;
 }
-
 p {
     color: $midGreen;
     font-family: monospace;
     font-size: 18pt;
 }
-
 @media(max-width: 480px) {
     p {
         font-size: 12pt;
     }
 }
-
 .themtoo {
-//    border-bottom: 1px dotted;
+    border-bottom: 1px dotted;
     text-align: center;
 }
-
-.fixedHeight
-{
+.fixedHeight {
     height: 130px;
 }
 .inputBoxOuter {
@@ -77,12 +72,14 @@ footer p {
     font-size: 8pt;
     text-align: center;
 }
-footer a, #registerAnotherEmail {
+footer a,
+#registerAnotherEmail {
     color: $lightGreen;
     text-decoration: none;
     border-bottom: 1px dotted;
 }
-footer a:hover, #registerAnotherEmail {
+footer a:hover,
+#registerAnotherEmail {
     color: $lightGreen;
     text-decoration: none;
     border-bottom: 1px solid;
