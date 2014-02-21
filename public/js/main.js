@@ -10,7 +10,30 @@
     var thanksBar = $("#thanksBar"),
         registerBar = $("#registerBar"),
         reason,
-        reasonDescription;
+        reasonDescription,
+        areaNames = [
+            "Norfolk",
+            "Virginia Beach",
+            "Chesapeake",
+            "Newport News",
+            "Portsmouth",
+            "Suffolk",
+            "Hampton",
+            "Hampton Roads",
+            "Coastal Virginia",
+            "Tidewater"
+        ];
+
+    setInterval(function () {
+        var areaBox = $("#themtoo"),
+            randomArea = areaNames[Math.floor(Math.random() * areaNames.length)];
+
+        console.log(randomArea);
+        areaBox.fadeOut(function () {
+            areaBox.text(randomArea);
+            areaBox.fadeIn();
+        });
+    }, 5000);
 
     thanksBar.hide().removeClass("hide");
     registerBar.hide().removeClass("hide");
