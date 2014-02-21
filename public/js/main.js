@@ -33,7 +33,7 @@
             areaBox.text(randomArea);
             areaBox.fadeIn();
         });
-    }, 5000);
+    }, 1000);
 
     thanksBar.hide().removeClass("hide");
     registerBar.hide().removeClass("hide");
