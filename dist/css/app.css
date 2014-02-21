@@ -65,21 +65,23 @@ p {
   width: 100%;
   max-width: 325px;
   font-size: 24px;
+  height: 75px;
+  box-sizing: border-box;
 }
 
-/* line 58, ../../public/sass/app.scss */
+/* line 60, ../../public/sass/app.scss */
 #joinButton {
   width: auto;
 }
 
-/* line 61, ../../public/sass/app.scss */
+/* line 63, ../../public/sass/app.scss */
 #joinButton:hover {
   background-color: #a3bfa3;
   border: 5px solid #8cff00;
   color: #111900;
 }
 
-/* line 66, ../../public/sass/app.scss */
+/* line 68, ../../public/sass/app.scss */
 footer p {
   margin-top: 20px;
   color: #a3bfa3;
@@ -87,21 +89,21 @@ footer p {
   text-align: center;
 }
 
-/* line 72, ../../public/sass/app.scss */
+/* line 74, ../../public/sass/app.scss */
 footer a, #registerAnotherEmail {
   color: #a3bfa3;
   text-decoration: none;
   border-bottom: 1px dotted;
 }
 
-/* line 77, ../../public/sass/app.scss */
+/* line 79, ../../public/sass/app.scss */
 footer a:hover, #registerAnotherEmail {
   color: #a3bfa3;
   text-decoration: none;
   border-bottom: 1px solid;
 }
 
-/* line 82, ../../public/sass/app.scss */
+/* line 84, ../../public/sass/app.scss */
 .fa {
   color: #8cff00;
   font-size: 4em;
@@ -115,7 +117,7 @@ footer a:hover, #registerAnotherEmail {
   transition-duration: 1s;
 }
 
-/* line 88, ../../public/sass/app.scss */
+/* line 90, ../../public/sass/app.scss */
 .fa:hover {
   -webkit-transform: rotate(15deg);
   -moz-transform: rotate(15deg);
@@ -124,18 +126,18 @@ footer a:hover, #registerAnotherEmail {
   color: #a3bfa3;
 }
 
-/* line 92, ../../public/sass/app.scss */
+/* line 94, ../../public/sass/app.scss */
 #socialBar {
   text-align: center;
   margin-top: 10px;
 }
 
-/* line 96, ../../public/sass/app.scss */
+/* line 98, ../../public/sass/app.scss */
 #socialBar a:hover {
   text-decoration: none;
 }
 
-/* line 99, ../../public/sass/app.scss */
+/* line 101, ../../public/sass/app.scss */
 #thanksBar {
   text-align: center;
   color: #a3bfa3;
