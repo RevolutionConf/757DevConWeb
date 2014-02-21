@@ -14,26 +14,32 @@
         areaNames = [
             "Norfolk",
             "Virginia Beach",
+            "Hampton Roads",
             "Chesapeake",
             "Newport News",
+            "Coastal Virginia",
             "Portsmouth",
             "Suffolk",
             "Hampton",
-            "Hampton Roads",
-            "Coastal Virginia",
             "Tidewater"
-        ];
+        ],
+        currentArea = 0;
 
     setInterval(function () {
         var areaBox = $("#themtoo"),
-            randomArea = areaNames[Math.floor(Math.random() * areaNames.length)];
+            randomArea = areaNames[currentArea];
+
+        currentArea = currentArea + 1;
+        if (currentArea > areaNames.length) {
+            currentArea = 0;
+        }
 
         console.log(randomArea);
         areaBox.fadeOut(function () {
             areaBox.text(randomArea);
             areaBox.fadeIn();
         });
-    }, 1000);
+    }, 2000);
 
     thanksBar.hide().removeClass("hide");
     registerBar.hide().removeClass("hide");
