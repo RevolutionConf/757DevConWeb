@@ -88,14 +88,14 @@ footer p {
 }
 
 /* line 72, ../../public/sass/app.scss */
-footer a {
+footer a, #registerAnotherEmail {
   color: #a3bfa3;
   text-decoration: none;
   border-bottom: 1px dotted;
 }
 
 /* line 77, ../../public/sass/app.scss */
-footer a:hover {
+footer a:hover, #registerAnotherEmail {
   color: #a3bfa3;
   text-decoration: none;
   border-bottom: 1px solid;
@@ -127,14 +127,15 @@ footer a:hover {
 /* line 92, ../../public/sass/app.scss */
 #socialBar {
   text-align: center;
+  margin-top: 10px;
 }
 
-/* line 95, ../../public/sass/app.scss */
+/* line 96, ../../public/sass/app.scss */
 #socialBar a:hover {
   text-decoration: none;
 }
 
-/* line 98, ../../public/sass/app.scss */
+/* line 99, ../../public/sass/app.scss */
 #thanksBar {
   text-align: center;
   color: #a3bfa3;

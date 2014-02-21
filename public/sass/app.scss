@@ -69,12 +69,12 @@ footer p {
     font-size: 8pt;
     text-align: center;
 }
-footer a {
+footer a, #registerAnotherEmail {
     color: $lightGreen;
     text-decoration: none;
     border-bottom: 1px dotted;
 }
-footer a:hover {
+footer a:hover, #registerAnotherEmail {
     color: $lightGreen;
     text-decoration: none;
     border-bottom: 1px solid;
@@ -91,6 +91,7 @@ footer a:hover {
 }
 #socialBar {
     text-align: center;
+    margin-top: 10px;
 }
 #socialBar a:hover {
     text-decoration: none;
