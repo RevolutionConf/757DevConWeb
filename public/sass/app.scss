@@ -14,17 +14,30 @@ h1 {
     text-align: center;
     font-size: 48pt;
 }
+@media(max-width: 480px) {
+    h1 {
+        font-size: 32pt;
+    }
+}
 h2 {
     color: $lightGreen;
     font-family: $ocr;
     text-align: center;
     font-size: 24pt;
 }
+
 p {
     color: $midGreen;
     font-family: monospace;
     font-size: 18pt;
 }
+
+@media(max-width: 480px) {
+    p {
+        font-size: 12pt;
+    }
+}
+
 .themtoo {
     border-bottom: 1px dotted;
 }
@@ -82,8 +95,7 @@ footer a:hover {
 #socialBar a:hover {
     text-decoration: none;
 }
-#thanksBar
-{
+#thanksBar {
     text-align: center;
     color: $lightGreen;
 }
