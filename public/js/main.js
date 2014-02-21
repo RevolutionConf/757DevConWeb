@@ -30,7 +30,7 @@
             randomArea = areaNames[currentArea];
 
         currentArea = currentArea + 1;
-        if (currentArea > areaNames.length) {
+        if (currentArea > (areaNames.length - 1)) {
             currentArea = 0;
         }
 

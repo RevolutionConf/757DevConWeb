@@ -47,15 +47,19 @@ p {
 /* line 41, ../../public/sass/app.scss */
 .themtoo {
   text-align: center;
-  font-weight: bold;
 }
 
-/* line 46, ../../public/sass/app.scss */
+/* line 47, ../../public/sass/app.scss */
+.fixedHeight {
+  height: 130px;
+}
+
+/* line 50, ../../public/sass/app.scss */
 .inputBoxOuter {
   text-align: center;
 }
 
-/* line 50, ../../public/sass/app.scss */
+/* line 54, ../../public/sass/app.scss */
 .inputBoxOuter input,
 #joinButton {
   border: 5px solid #a3bfa3;
@@ -70,19 +74,19 @@ p {
   box-sizing: border-box;
 }
 
-/* line 62, ../../public/sass/app.scss */
+/* line 66, ../../public/sass/app.scss */
 #joinButton {
   width: auto;
 }
 
-/* line 65, ../../public/sass/app.scss */
+/* line 69, ../../public/sass/app.scss */
 #joinButton:hover {
   background-color: #a3bfa3;
   border: 5px solid #8cff00;
   color: #111900;
 }
 
-/* line 70, ../../public/sass/app.scss */
+/* line 74, ../../public/sass/app.scss */
 footer p {
   margin-top: 20px;
   color: #a3bfa3;
@@ -90,21 +94,21 @@ footer p {
   text-align: center;
 }
 
-/* line 76, ../../public/sass/app.scss */
+/* line 80, ../../public/sass/app.scss */
 footer a, #registerAnotherEmail {
   color: #a3bfa3;
   text-decoration: none;
   border-bottom: 1px dotted;
 }
 
-/* line 81, ../../public/sass/app.scss */
+/* line 85, ../../public/sass/app.scss */
 footer a:hover, #registerAnotherEmail {
   color: #a3bfa3;
   text-decoration: none;
   border-bottom: 1px solid;
 }
 
-/* line 86, ../../public/sass/app.scss */
+/* line 90, ../../public/sass/app.scss */
 .fa {
   color: #8cff00;
   font-size: 4em;
@@ -118,7 +122,7 @@ footer a:hover, #registerAnotherEmail {
   transition-duration: 1s;
 }
 
-/* line 92, ../../public/sass/app.scss */
+/* line 96, ../../public/sass/app.scss */
 .fa:hover {
   -webkit-transform: rotate(15deg);
   -moz-transform: rotate(15deg);
@@ -127,18 +131,18 @@ footer a:hover, #registerAnotherEmail {
   color: #a3bfa3;
 }
 
-/* line 96, ../../public/sass/app.scss */
+/* line 100, ../../public/sass/app.scss */
 #socialBar {
   text-align: center;
   margin-top: 10px;
 }
 
-/* line 100, ../../public/sass/app.scss */
+/* line 104, ../../public/sass/app.scss */
 #socialBar a:hover {
   text-decoration: none;
 }
 
-/* line 103, ../../public/sass/app.scss */
+/* line 107, ../../public/sass/app.scss */
 #thanksBar {
   text-align: center;
   color: #a3bfa3;
