@@ -1,10 +1,6 @@
 /*globals console, document, location, $*/
 (function (console, document, location, $) {
     "use strict";
-    if (console && !console.log) {
-        console.log = function () {};
-    }
-
     $("[data-toggle='tooltip']").tooltip();
 
     var thanksBar = $("#thanksBar"),
@@ -34,7 +30,6 @@
             currentArea = 0;
         }
 
-        console.log(randomArea);
         areaBox.fadeOut(function () {
             areaBox.text(randomArea);
             areaBox.fadeIn();
@@ -60,7 +55,6 @@
         reason = location.search.toLowerCase().split('=')[1];
         reasonDescription = "A wicked error occured.";
 
-        console.log("error reason is " + reason);
         if (reason.toLowerCase() === ("List_AlreadySubscribed".toLowerCase())) {
             reasonDescription = "No need to fear!  You're already on the list.  We'll keep you posted.";
         }
